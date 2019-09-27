@@ -20,6 +20,9 @@ load:
 	@echo "Load docker image từ file tar."
 	@docker load -i ./e-reading-server-app.tar
 
+run:
+	python manage.py runserver
+
 installonvps:
 
 	# Cap quyen cho file scrip
