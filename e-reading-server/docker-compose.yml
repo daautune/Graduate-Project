@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  data:
+    image: postgres:11.1-alpine
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: 'default'
+      POSTGRES_USER: 'capstone2'
+      POSTGRES_PASSWORD: 'capstone2'
+    restart: always
+  app:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    ports:
+      - "8000:8000"
+    depends_on:
+      - data
+    entrypoint:
+      - /entrypoint.sh
+      

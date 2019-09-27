@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutPageAccountContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvPageAccountHeaderTitle"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorMainApp"
+        android:gravity="center"
+        android:text="@string/page_account_header_title"
+        android:textColor="@color/colorBackgroundMainApp"
+        android:textSize="@dimen/action_bar_title_text_size" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvPageAccountHeaderTitle">
+
+        <include layout="@layout/fragment_manager" />
+    </ScrollView>
+</RelativeLayout>

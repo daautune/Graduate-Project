@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="270dp"
+    android:layout_height="120dp"
+    android:background="@drawable/bg_dialog_api_error"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/tvErrorTitle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="10dp"
+        android:textColor="@color/colorBackgroundMainApp"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@id/viewErrorLine"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/viewErrorLine"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorBackgroundMainApp"
+        app:layout_constraintBottom_toTopOf="@id/tvErrorDialogOk" />
+
+    <TextView
+        android:id="@+id/tvErrorDialogOk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:padding="5dp"
+        android:paddingEnd="16dp"
+        android:paddingRight="16dp"
+        android:text="@string/api_dialog_error_tv_ok"
+        android:textColor="@color/colorBackgroundMainApp"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+</android.support.constraint.ConstraintLayout>

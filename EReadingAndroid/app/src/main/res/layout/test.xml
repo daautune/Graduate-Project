@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/txtTest"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:enabled="true"
+        android:hint="Input text" />
+
+    <TextView
+        android:id="@+id/tvTest"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Động thái này được Sở Y tế Bắc Ninh đưa ra sau hai ngày có hàng nghìn phụ huynh đưa con đến Hà Nội khám bệnh, kể từ khi bếp ăn trường mầm non Thanh Khương bị phát hiện dùng thịt bẩn hồi đầu tháng 3. Sở Y tế sẽ chi trả phí xét nghiệm và cấp thuốc điều trị theo phác đồ cho các bé nhiễm sán.
+
+Đến nay, có tổng cộng khoảng 1.700 trẻ ở Bắc Ninh được làm xét nghiệm sán lợn, trong đó 209 ca dương tính. Đây vẫn chưa phải là con số cuối cùng, bởi nhiều phụ huynh vẫn tiếp tục đưa con lên Hà Nội xét nghiệm.
+
+Bác sĩ Trần Hải Ninh, Trưởng phòng Kế hoạch Tổng hợp, Bệnh viện Bệnh nhiệt đới Trung ương, cho biết trong nhóm các trẻ Bắc Ninh đến khám, tỷ lệ mẫu xét nghiệm dương tính với sán lợn dao động 10-15% tùy xã khác nhau."
+        android:layout_margin="10dp"
+        android:textIsSelectable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtTest"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+        <Button
+            android:id="@+id/btn_test"
+            android:text="Test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@+id/tvTest"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+</android.support.constraint.ConstraintLayout>

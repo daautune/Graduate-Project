@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/colorBackgroundMainApp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <RelativeLayout
+        android:id="@+id/layoutTranslateNewFeedHeader"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorMainApp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imgTranslateNewFeedBack"
+            android:layout_width="?android:attr/actionBarSize"
+            android:layout_height="?android:attr/actionBarSize"
+            android:layout_alignParentLeft="true"
+            android:padding="10dp"
+            android:src="@drawable/ic_back_default" />
+
+        <TextView
+            android:id="@+id/tv_translate_new_feed_level"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:layout_toLeftOf="@id/imgTranslateNewFeedFavoriteReview"
+            android:layout_toRightOf="@id/imgTranslateNewFeedBack"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:textColor="@color/colorBackgroundMainApp"
+            tools:text="Level: Chưa biết gì." />
+
+        <ImageView
+            android:id="@+id/imgTranslateNewFeedRefresh"
+            android:layout_width="?android:attr/actionBarSize"
+            android:layout_height="?android:attr/actionBarSize"
+            android:layout_toLeftOf="@id/view_neo_view_when_gone"
+            android:padding="15dp"
+            android:src="@drawable/ic_refresh"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tvTranslateNewFeedRefreshCount"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignRight="@+id/imgTranslateNewFeedRefresh"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/bg_number_vocabulary"
+            android:gravity="center"
+            android:padding="2dp"
+            android:textColor="@color/colorBackgroundMainApp"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            tools:text="99+"
+            tools:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imgTranslateNewFeedFavoriteReview"
+            android:layout_width="?android:attr/actionBarSize"
+            android:layout_height="?android:attr/actionBarSize"
+            android:layout_toLeftOf="@id/imgTranslateNewFeedRefresh"
+            android:padding="15dp"
+            android:src="@drawable/ic_add_favorite_review"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tvTranslateNewFeedFavoriteReviewCount"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignRight="@+id/imgTranslateNewFeedFavoriteReview"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/bg_number_vocabulary"
+            android:gravity="center"
+            android:padding="2dp"
+            android:textColor="@color/colorBackgroundMainApp"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            tools:text="99+"
+            tools:visibility="visible" />
+
+        <View
+            android:id="@+id/view_neo_view_when_gone"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_new_feed_translate_guide_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@color/colorMainApp"
+        android:drawableLeft="@drawable/ic_refresh_2020"
+        android:drawablePadding="5dp"
+        android:padding="5dp"
+        android:text="Click để dịch thêm các từ đã chọn."
+        android:textColor="@color/colorBackgroundMainApp"
+        android:textSize="12sp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/layoutTranslateNewFeedHeader"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_new_feed_translate_guide_favorite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@color/colorMainApp"
+        android:drawableLeft="@drawable/ic_add_favorite_2020"
+        android:drawablePadding="5dp"
+        android:padding="5dp"
+        android:text="Click để thêm các từ đã chọn vào danh sách yêu thích."
+        android:textColor="@color/colorBackgroundMainApp"
+        android:textSize="12sp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/tv_new_feed_translate_guide_refresh"
+        tools:visibility="visible" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewTranslateNewFeed"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_new_feed_translate_guide_favorite" />
+</android.support.constraint.ConstraintLayout>

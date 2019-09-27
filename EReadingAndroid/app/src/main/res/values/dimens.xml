@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="action_bar_title_text_size">20sp</dimen>
+    <dimen name="text_size_new_feed_title">20sp</dimen>
+    <dimen name="text_size_new_feed_introduction">18sp</dimen>
+    <dimen name="text_size_new_feed_content">18sp</dimen>
+</resources>
