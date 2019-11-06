@@ -249,11 +249,14 @@ def translate_new_feed(request):
         print(e)
         return Response({'detail': "Body not correct {'%s':'String'}" % BODY_WORD_REQUEST},
                         status=status.HTTP_400_BAD_REQUEST)
+    
     if request.user.is_authenticated:
         id_user_request = request.user.id
         object_user_request = User.objects.get(id=id_user_request)
 
         level_value = get_level_value_by_user_id(id_user_request)
+        print("Level", level_value)
+
         if level_value == -1:
             return Response({'detail': "Trước tiên hãy cho chúng tôi biết trình độ tiếng anh của ban."},
                             status=status.HTTP_400_BAD_REQUEST)
@@ -267,6 +270,7 @@ def translate_new_feed(request):
     else:
         text_result, words_result, words_result_none_translate = save_or_get_new_feed_from_cache(
             word_request, None, None, url_source_feed, position_content)
+
 
     return JsonResponse({
         "text": text_result,

@@ -38,12 +38,12 @@ def is_should_translator(vocabulary_request, level_of_user_request, object_user_
 
 
 # Xếp hạng từ trên xuống tương ững với basic đến pro
-LEVEL_USER_1 = 630072115
-LEVEL_USER_2 = 80893690
-LEVEL_USER_3 = 26708670
-LEVEL_USER_4 = 11315623
-LEVEL_USER_5 = 5396579
-LEVEL_USER_6 = 2917632
+LEVEL_USER_1 = 0
+LEVEL_USER_2 = 16000
+LEVEL_USER_3 = 32000
+LEVEL_USER_4 = 48000
+LEVEL_USER_5 = 64000
+LEVEL_USER_6 = 80000
 LEVEL_USER_DEFAULT = LEVEL_USER_1
 ID_USER_DEFAULT = 0
 
@@ -73,7 +73,7 @@ def detect_work_by_nltk(text, levelsOfUser, object_user_request):
         type_vocabulary = val[1].strip()
 
         if vocabulary in ",.()'\"-+=!?><;:{}[]~@#$%^&*":  # if tag is not alpha then skip
-            print("Phát hiện kí tự: ", vocabulary)
+            # print("Phát hiện kí tự: ", vocabulary)
             position_words_changed += len_words
             continue
 
@@ -126,7 +126,10 @@ def save_or_get_new_feed_from_cache(words_translate, level, object_user_request,
     if object_user_request is not None:
         id_user_request = object_user_request.id
         level_request = level
+
     key_cache = "{};{};{};{}".format(id_user_request, level_request, position_content_request, url_source_feed_request)
+    print("key_cache", key_cache)
+
     if not cache.has_key(key_cache, version=position_content_request):
         a, b, c = detect_work_by_nltk(words_translate, level_request, object_user_request)
         Thread(target=cache.add, args=(key_cache, (a, b, c), TIME_OUT_CACHE, position_content_request)).start()

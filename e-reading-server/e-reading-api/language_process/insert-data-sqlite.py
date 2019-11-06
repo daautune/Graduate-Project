@@ -5,7 +5,7 @@ from nltk.stem.snowball import SnowballStemmer
 
 def initListVovabularyFromFile(urlFile):
     """
-        Load  điển anh việt từ file 
+        Load từ điển anh việt từ file 
     """
 
     file = open(urlFile, "r+")
@@ -20,8 +20,10 @@ def insertDataFromFileToDB():
         Insert Data từ file vào databse
     """
 
-    listVocabulary, sizeList = initListVovabularyFromFile(
-        "./e-reading-api/language_process/anhviet109K.txt")
+    # file_name = "./e-reading-api/language_process/anhviet109K.txt"
+    file_name = "./e-reading-api/language_process/new-dict.txt"
+
+    listVocabulary, sizeList = initListVovabularyFromFile(file_name)
 
     writeFileLogError(
         "Insert Data From File To DB. In Progress.... {}".format(sizeList),
@@ -197,7 +199,10 @@ def writeFileLog(error, isLogDateTime=False, isFirstLog=False):
 def updatePopularityOfVocabulary():
 
     dictDataCommon, sizeDict = initDictCommonWorkFromFile(
-        "./e-reading-api/language_process/google-books-common-words.txt")
+        "./e-reading-api/language_process/common-words.txt")
+
+    # dictDataCommon, sizeDict = initDictCommonWorkFromFile(
+    #     "./e-reading-api/language_process/google-books-common-words.txt")
 
     writeFileLog(
         error="Start Insert with size of {}".format(sizeDict),
@@ -218,9 +223,7 @@ def updatePopularityOfVocabulary():
                 lenWord = len(key)
                 wordSub = key
 
-                while lenWord >= len(
-                        key
-                ) - 2:  # Cắt từ phía phải về trái 2 lần để tìm từ nguyên mẫu chính xác
+                while lenWord >= len(key) - 2:  # Cắt từ phía phải về trái 2 lần để tìm từ nguyên mẫu chính xác
                     wordSub = wordSub[:lenWord]
 
                     tempCount = updateVocabularyDB(
@@ -233,8 +236,7 @@ def updatePopularityOfVocabulary():
 
                 if tempCount == 0:  # Các từ bị miss vì ko tìm thấy trong DB vì bất cứ lí do gì
                     writeFileLog(
-                        error=
-                        "Khong co trong tu dien:(Dạng Thì :: Dạng ng Mẫu ) {}::{} "
+                        error="Khong co trong tu dien:(Dạng Thì :: Dạng ng Mẫu ) {}::{} "
                         .format(key, wordSub))
                     countMissing = countMissing + 1
 
@@ -266,7 +268,7 @@ def initDictCommonWorkFromFile(urlFile):
 
     myDict = {}
     for i in arrayData:
-        work = i.split("\t")
+        work = i.split()
         myDict[work[0].lower()] = work[1]
     return myDict, len(myDict)
 
@@ -278,6 +280,7 @@ def updateVocabularyDB(word, popularity):
         sql = """UPDATE tbl_vocabulary
               SET popularity = ? 
               WHERE word = ? AND popularity = 0"""
+              
 
         cur = conn.cursor()
 
