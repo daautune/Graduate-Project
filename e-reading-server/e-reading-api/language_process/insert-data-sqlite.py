@@ -20,8 +20,8 @@ def insertDataFromFileToDB():
         Insert Data từ file vào databse
     """
 
-    # file_name = "./e-reading-api/language_process/anhviet109K.txt"
-    file_name = "./e-reading-api/language_process/new-dict.txt"
+    file_name = "./e-reading-api/language_process/anhviet109K.txt"
+    # file_name = "./e-reading-api/language_process/new-dict.txt"
 
     listVocabulary, sizeList = initListVovabularyFromFile(file_name)
 
@@ -201,11 +201,11 @@ def updatePopularityOfVocabulary():
     # dictDataCommon, sizeDict = initDictCommonWorkFromFile(
     #     "./e-reading-api/language_process/common-words.txt")
 
-    dictDataCommon, sizeDict = initDictCommonWorkFromFile(
-        "./e-reading-api/language_process/common-words.txt")
-
     # dictDataCommon, sizeDict = initDictCommonWorkFromFile(
-    #     "./e-reading-api/language_process/google-books-common-words.txt")
+    #     "./e-reading-api/language_process/common-words.txt")
+
+    dictDataCommon, sizeDict = initDictCommonWorkFromFile(
+        "./e-reading-api/language_process/google-books-common-words.txt")
 
     writeFileLog(
         error="Start Insert with size of {}".format(sizeDict),
@@ -240,12 +240,8 @@ def updatePopularityOfVocabulary():
                 if tempCount == 0:  # Các từ bị miss vì ko tìm thấy trong DB vì bất cứ lí do gì
                     writeFileLog(
                         error="Khong co trong tu dien:(Dạng Thì :: Dạng ng Mẫu ) {}::{} "
-<<<<<<< HEAD
-                        .format(key, wordSub))
-=======
                         .format(key, wordSub)
                     )
->>>>>>> 0e2ae7fe62e8b8d8cd9fa0346aa300c641cabec4
                     countMissing = countMissing + 1
 
         count = count + tempCount
