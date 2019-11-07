@@ -198,11 +198,11 @@ def writeFileLog(error, isLogDateTime=False, isFirstLog=False):
 
 def updatePopularityOfVocabulary():
 
-    dictDataCommon, sizeDict = initDictCommonWorkFromFile(
-        "./e-reading-api/language_process/common-words.txt")
-
     # dictDataCommon, sizeDict = initDictCommonWorkFromFile(
-    #     "./e-reading-api/language_process/google-books-common-words.txt")
+    #     "./e-reading-api/language_process/common-words.txt")
+
+    dictDataCommon, sizeDict = initDictCommonWorkFromFile(
+        "./e-reading-api/language_process/google-books-common-words.txt")
 
     writeFileLog(
         error="Start Insert with size of {}".format(sizeDict),
@@ -237,7 +237,8 @@ def updatePopularityOfVocabulary():
                 if tempCount == 0:  # Các từ bị miss vì ko tìm thấy trong DB vì bất cứ lí do gì
                     writeFileLog(
                         error="Khong co trong tu dien:(Dạng Thì :: Dạng ng Mẫu ) {}::{} "
-                        .format(key, wordSub))
+                        .format(key, wordSub)
+                    )
                     countMissing = countMissing + 1
 
         count = count + tempCount
@@ -249,11 +250,10 @@ def updatePopularityOfVocabulary():
                 progress, sizeDict, count),
             end='\r')
 
-    #Ghi lại kết quả
+    # Ghi lại kết quả
     writeFileLog(
         error="Done with Total: {}, Success: {}, Missing: {}".format(
-            sizeDict, count, countMissing),
-        isLogDateTime=True)
+            sizeDict, count, countMissing), isLogDateTime=True)
 
 
 def initDictCommonWorkFromFile(urlFile):
