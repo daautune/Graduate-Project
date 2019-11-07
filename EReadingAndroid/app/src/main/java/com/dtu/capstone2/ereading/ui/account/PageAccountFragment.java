@@ -34,15 +34,12 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
 
-/**
- * Create by Nguyen Van Phuc on 3/22/19
- */
 public class PageAccountFragment extends BaseFragment {
     private PageAccountViewModel mViewModel;
 
     AlertDialog.Builder builder;
     private LinearLayout linearLayoutLogin;
-    private LinearLayout linearLayoutTrinhDoTiengAnh;
+    private LinearLayout linearLayoutEnglishLevel;
     private LinearLayout linearLayoutLogout;
     private LinearLayout linearLayoutFavorite;
     private LinearLayout mLinearLayoutHistory;
@@ -67,7 +64,7 @@ public class PageAccountFragment extends BaseFragment {
         linearLayoutLogout = view.findViewById(R.id.layoutLogout);
         linearLayoutFavorite = view.findViewById(R.id.tvFavorite);
         mLinearLayoutHistory = view.findViewById(R.id.tvHistory);
-        linearLayoutTrinhDoTiengAnh = view.findViewById(R.id.llTrinhDoTiengAnh);
+        linearLayoutEnglishLevel = view.findViewById(R.id.llEnglishLevel);
         tvEmailUser = view.findViewById(R.id.tv_page_account_manager_email_user);
 
         return view;
@@ -196,7 +193,7 @@ public class PageAccountFragment extends BaseFragment {
                 }
             }
         });
-        linearLayoutTrinhDoTiengAnh.setOnClickListener(new View.OnClickListener() {
+        linearLayoutEnglishLevel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (!mViewModel.isLogin()) {

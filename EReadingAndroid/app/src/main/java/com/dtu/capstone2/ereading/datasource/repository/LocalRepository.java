@@ -3,9 +3,6 @@ package com.dtu.capstone2.ereading.datasource.repository;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-/**
- * Create by Nguyen Van Phuc on 2/20/19
- */
 public class LocalRepository {
     private final static String E_READING_SHARED_PREFERENCE = "e_reading_shared_preference";
     private final static String KEY_TOKEN_USER = "key_token_user";

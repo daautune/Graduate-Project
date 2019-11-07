@@ -4,7 +4,7 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from .MainFunction import lay_nguyen_mau_cua_tu
 from .models import RequestHistory, User, UserExtend, VocabularyFavorite, Vocabulary
 from .serializers import ListVocabularyFavoriteSerializer, ListHistoryNewFeedSerializer
-
+from .MainFunction import LEVEL_USER
 
 def save_or_update_history_new_feed_by_url_new_feed(object_user_request, url_new_feed_request, word_request,
                                                     word_result, position_content):
@@ -53,19 +53,19 @@ def list_level_default_user():
     :return:
     """
     return [{"name": "Không có kiến ​​thức về tiếng Anh",  # Không có kiến ​​thức về tiếng anh : No knowledge of English
-             "value": 630072115},
+             "value": LEVEL_USER[0]},
             {"name": "Trình độ tiếng Anh tiểu học",  # Trình độ tiếng Anh tiểu học : Elementary level of English
-             "value": 80893690},
+             "value": LEVEL_USER[1]},
             {"name": "Trình độ tiếng Anh trung cấp thấp",
              # Trình độ tiếng anh trung cấp thấp : Low intermediate level of English
-             "value": 26708670},
+             "value": LEVEL_USER[2]},
             {"name": "Trình độ tiếng Anh trung cấp cao",
              # Trình độ tiếng Anh trung cấp cao : High intermediate level of English
-             "value": 11315623},
+             "value": LEVEL_USER[3]},
             {"name": "Trình độ tiếng Anh nâng cao",  # Trình độ tiếng anh nâng cao : Advanced level of English
-             "value": 5396579},
+             "value": LEVEL_USER[4]},
             {"name": "Tiếng Anh thành thạo",  # Tiếng Anh thành thạo : Proficient in English
-             "value": 2917632}]
+             "value": LEVEL_USER[5]}]
 
 
 def get_position_of_level_user_by_id_user(id_user_request):

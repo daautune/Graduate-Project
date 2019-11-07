@@ -1,5 +1,7 @@
 package com.dtu.capstone2.ereading.ui.newfeed.listnewfeed.pagelistnewfeed;
 
+import android.util.Log;
+
 import com.dtu.capstone2.ereading.datasource.repository.RssNewFeedRepository;
 import com.dtu.capstone2.ereading.network.response.BBCRssItemResponse;
 import com.dtu.capstone2.ereading.network.response.BBCRssResponse;
@@ -10,9 +12,6 @@ import java.util.List;
 import io.reactivex.Single;
 import io.reactivex.functions.Consumer;
 
-/**
- * Create by Nguyen Van Phuc on 4/6/19
- */
 class PageListNewFeedViewModel {
     private RssNewFeedRepository mNewFeedRepository = new RssNewFeedRepository();
     private List<BBCRssItemResponse> mRssItemResponses = new ArrayList<>();
@@ -38,6 +37,7 @@ class PageListNewFeedViewModel {
             @Override
             public void accept(BBCRssResponse rssResponse) throws Exception {
                 mRssItemResponses.clear();
+                Log.d("BBBB", rssResponse.getBbcRssItemResponses().get(0).getPushDate());
                 mRssItemResponses.addAll(rssResponse.getBbcRssItemResponses());
             }
         });

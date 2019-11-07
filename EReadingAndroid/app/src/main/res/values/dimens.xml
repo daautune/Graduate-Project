@@ -4,4 +4,5 @@
     <dimen name="text_size_new_feed_title">20sp</dimen>
     <dimen name="text_size_new_feed_introduction">18sp</dimen>
     <dimen name="text_size_new_feed_content">18sp</dimen>
+    <dimen name="box_result_translate">100dp</dimen>
 </resources>

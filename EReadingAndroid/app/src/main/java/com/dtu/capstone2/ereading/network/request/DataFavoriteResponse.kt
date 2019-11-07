@@ -3,9 +3,6 @@ package com.dtu.capstone2.ereading.network.request
 import com.google.gson.annotations.SerializedName
 import java.util.*
 
-/**
- * Create by Vo The Doan on 04/30/2019
- */
 data class DataFavoriteResponse(@SerializedName("result_count") val resultCount: Int,
                                 @SerializedName("page") val page: Int,
                                 @SerializedName("next_page_flg") val nextPageFlg: Boolean,

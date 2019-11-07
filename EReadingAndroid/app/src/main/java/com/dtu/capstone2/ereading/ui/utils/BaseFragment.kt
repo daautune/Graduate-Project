@@ -5,9 +5,6 @@ import android.support.v4.app.Fragment
 import com.dtu.capstone2.ereading.R
 import io.reactivex.disposables.CompositeDisposable
 
-/**
- * Create by Nguyen Van Phuc on 4/3/19
- */
 abstract class BaseFragment : Fragment() {
     private var nameActivity = "null"
     protected val managerSubscribe: CompositeDisposable = CompositeDisposable()

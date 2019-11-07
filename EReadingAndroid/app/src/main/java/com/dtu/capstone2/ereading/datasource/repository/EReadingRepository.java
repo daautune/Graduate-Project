@@ -22,9 +22,6 @@ import java.util.List;
 
 import io.reactivex.Single;
 
-/**
- * Create by Nguyen Van Phuc on 3/11/19
- */
 public class EReadingRepository {
     static private EReadingRemoteDataSource eReadingRemoteDataSource = new EReadingRemoteDataSource();
 

@@ -31,9 +31,6 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
 
-/**
- * Create by Nguyen Van Phuc on 4/1/19
- */
 public class RegisterFragment extends BaseFragment implements View.OnClickListener, View.OnFocusChangeListener {
     private final String TAG = getClass().getSimpleName();
 

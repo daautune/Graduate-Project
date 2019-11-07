@@ -5,9 +5,6 @@ import android.support.multidex.MultiDex
 import android.support.multidex.MultiDexApplication
 import com.dtu.capstone2.ereading.datasource.repository.LocalRepository
 
-/**
- * Create by Nguyen Van Phuc on 2/20/19
- */
 class App : MultiDexApplication() {
     internal lateinit var localRepository: LocalRepository
 

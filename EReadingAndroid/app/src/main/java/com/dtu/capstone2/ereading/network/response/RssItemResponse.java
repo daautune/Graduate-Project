@@ -7,9 +7,6 @@ import org.simpleframework.xml.Root;
 
 import java.util.List;
 
-/**
- * Create by Nguyen Van Phuc on 4/6/19
- */
 @Root(name = "item", strict = false)
 public class RssItemResponse {
 

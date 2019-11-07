@@ -6,10 +6,235 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="BIND" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0118a318-7120-43ee-a2d7-dbf0d9e8ae2a" name="Default Changelist" comment="" />
+    <list default="true" id="0118a318-7120-43ee-a2d7-dbf0d9e8ae2a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/box_input_text.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dash_icons_admin_users.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_favorite_blue_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_gmail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_key.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/image_default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/shadow.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_3_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customtabs_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customtabs_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_3_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_instrumentation_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_instrumentation_1_0_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_9_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_9_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_9_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_9_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_identifier_16_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_identifier_16_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_16_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_16_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_api_phone_16_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_api_phone_16_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_base_16_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_base_16_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_16_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_16_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_16_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_16_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_flags_16_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_flags_16_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_api_16_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_api_16_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_base_16_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_base_16_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_stats_16_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_stats_16_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_16_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_16_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_16_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_16_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_impl_16_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_impl_16_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_auth_16_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_auth_16_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_auth_interop_16_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_auth_interop_16_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_16_0_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_16_0_3_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_core_16_0_7_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_core_16_0_7_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_17_0_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_17_0_3_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_interop_16_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_interop_16_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_measurement_connector_17_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_measurement_connector_17_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_measurement_connector_impl_17_0_5_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_measurement_connector_impl_17_0_5_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxandroid_2_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxandroid_2_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EReadingAndroid.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EReadingAndroid.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/App.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/datasource/repository/EReadingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/datasource/repository/EReadingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/datasource/repository/LocalRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/datasource/repository/LocalRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/datasource/repository/RssNewFeedRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/datasource/repository/RssNewFeedRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/ApiClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/ApiClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/ApiServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/ApiServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/remote/EReadingDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/remote/EReadingDataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/remote/EReadingRemoteDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/remote/EReadingRemoteDataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/remote/RssNewFeedRemoteDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/remote/RssNewFeedRemoteDataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/AccountLoginRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/AccountLoginRequest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/AccountRegisterRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/AccountRegisterRequest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/AddFavoriteRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/AddFavoriteRequest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/DataFavoriteResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/DataFavoriteResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/DataLoginRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/DataLoginRequest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/DataStringReponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/DataStringReponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/DetectWordRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/DetectWordRequest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/FavoriteDeletedResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/FavoriteDeletedResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/ListVocabularyFavoriteRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/ListVocabularyFavoriteRequest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/ListVocabularyToTranslateAgainRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/ListVocabularyToTranslateAgainRequest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/TranslateNewFeedAgainRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/TranslateNewFeedAgainRequest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/TranslateNewFeedRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/TranslateNewFeedRequest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/BBCRssItemResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/BBCRssItemResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/BBCRssResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/BBCRssResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/BBCRssThumbnail.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/BBCRssThumbnail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/DetailResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/DetailResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/LevelUserResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/LevelUserResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/ListHistoryResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/ListHistoryResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/ListLevelEnglishResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/ListLevelEnglishResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/RssItemMediaGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/RssItemMediaGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/RssItemResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/RssItemResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/RssResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/RssResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/Token.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/Token.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/utils/CustomCallAdapterFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/utils/CustomCallAdapterFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/utils/MessageApiException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/utils/MessageApiException.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/MainViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/MainViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/ManagerAccountContainerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/ManagerAccountContainerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/PageAccountFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/PageAccountFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/PageAccountViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/PageAccountViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/favorite/FavoriteAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/favorite/FavoriteAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/favorite/FavoriteFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/favorite/FavoriteFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/favorite/FavoriteViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/favorite/FavoriteViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/history/HistoryAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/history/HistoryAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/history/HistoryFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/history/HistoryFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/history/HistoryViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/history/HistoryViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/login/LoginFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/login/LoginFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/login/LoginViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/login/LoginViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/register/RegisterFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/register/RegisterFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/register/RegisterViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/register/RegisterViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/home/HomeFragmentViewModal.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/home/HomeFragmentViewModal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/home/PageHomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/home/PageHomeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/model/AccountErrorResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/model/AccountErrorResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/model/ErrorUnauthorizedRespone.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/model/ErrorUnauthorizedRespone.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/model/ItemListNewFeedPager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/model/ItemListNewFeedPager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/model/ItemPageNewFeed.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/model/ItemPageNewFeed.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/model/LevelEnglish.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/model/LevelEnglish.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/model/LineContentNewFeed.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/model/LineContentNewFeed.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/model/MainPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/model/MainPage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/model/VocabularyLocation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/model/VocabularyLocation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/model/VocabularySelected.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/model/VocabularySelected.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/model/WordSpannableHighLight.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/model/WordSpannableHighLight.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/PageNewFeedAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/PageNewFeedAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/PageNewFeedFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/PageNewFeedFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/displayanewfeed/DisplayNewFeedFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/displayanewfeed/DisplayNewFeedFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/displayanewfeed/DisplayNewFeedViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/displayanewfeed/DisplayNewFeedViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/listnewfeed/ListNewFeedFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/listnewfeed/ListNewFeedFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/listnewfeed/ListNewFeedPagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/listnewfeed/ListNewFeedPagerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/listnewfeed/ListNewFeedViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/listnewfeed/ListNewFeedViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/listnewfeed/pagelistnewfeed/PageListNewFeedAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/listnewfeed/pagelistnewfeed/PageListNewFeedAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/listnewfeed/pagelistnewfeed/PageListNewFeedFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/listnewfeed/pagelistnewfeed/PageListNewFeedFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/listnewfeed/pagelistnewfeed/PageListNewFeedViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/listnewfeed/pagelistnewfeed/PageListNewFeedViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/translate/TranslateNewFeedAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/translate/TranslateNewFeedAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/translate/TranslateNewFeedFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/translate/TranslateNewFeedFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/translate/TranslateNewFeedViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/translate/TranslateNewFeedViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/utils/ApiErrorDialog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/utils/ApiErrorDialog.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/utils/BaseActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/utils/BaseActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/utils/BaseDialog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/utils/BaseDialog.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/utils/BaseFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/utils/BaseFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/utils/Constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/utils/Constants.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/utils/DefaultWordClickableSpan.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/utils/DefaultWordClickableSpan.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/utils/ErrorDialog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/utils/ErrorDialog.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/utils/Extensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/utils/Extensions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/utils/FavoriteWordClickableSpan.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/utils/FavoriteWordClickableSpan.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/utils/LoadingDialog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/utils/LoadingDialog.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/utils/RxBusTransport.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/utils/RxBusTransport.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/utils/SuccessDialog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/utils/SuccessDialog.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_button_main_app.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_button_main_app.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/custom_layout_textview.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/custom_layout_text_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_favorite_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_account.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_account.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_history.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_history.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/iconlogout.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_favorite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_favorite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_history.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_list_new_feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_list_new_feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_manager.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_manager.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_page_account.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_page_account.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_page_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_page_translate.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_page_new_feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_page_new_feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_translate_result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_translate_result.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_your_text.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_your_text.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_list_news_feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_list_news_feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/api-versions-15-28.0.2.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/constraint/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/test/espresso/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/test/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/google/android/gms/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/google/firebase/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/master-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/sdk-registry.xml/sdk-registry.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/typos-en.txt-2.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e-reading-server/e-reading-api/MainFunction.py" beforeDir="false" afterPath="$PROJECT_DIR$/../e-reading-server/e-reading-api/MainFunction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e-reading-server/e-reading-api/language_process/anhviet109K.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../e-reading-server/e-reading-api/language_process/anhviet109K.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e-reading-server/e-reading-api/language_process/insert-data-sqlite.py" beforeDir="false" afterPath="$PROJECT_DIR$/../e-reading-server/e-reading-api/language_process/insert-data-sqlite.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e-reading-server/e-reading-api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../e-reading-server/e-reading-api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e-reading-server/staticfiles/admin/css/base.7ea12481fb59.css" beforeDir="false" afterPath="$PROJECT_DIR$/../e-reading-server/staticfiles/admin/css/base.7ea12481fb59.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e-reading-server/staticfiles/admin/css/forms.4d944dc1c5f9.css" beforeDir="false" afterPath="$PROJECT_DIR$/../e-reading-server/staticfiles/admin/css/forms.4d944dc1c5f9.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e-reading-server/staticfiles/staticfiles.json" beforeDir="false" afterPath="$PROJECT_DIR$/../e-reading-server/staticfiles/staticfiles.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +244,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_4_API_23" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="3300a96e5318446d" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -33,48 +258,40 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/PageNewFeedFragment.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml">
+          <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-401">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="1785">
+              <caret line="119" column="46" selection-start-line="119" selection-start-column="46" selection-end-line="119" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/PageNewFeedAdapter.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/datasource/repository/LocalRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-461">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="60">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/listnewfeed/ListNewFeedPagerAdapter.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/remote/EReadingDataSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-87">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/listnewfeed/ListNewFeedFragment.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/AccountLoginRequest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-615">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/listnewfeed/pagelistnewfeed/PageListNewFeedAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="87" column="69" selection-start-line="87" selection-start-column="69" selection-end-line="87" selection-end-column="69" />
+            <state relative-caret-position="60">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -82,39 +299,150 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/ApiServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-210">
-              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+            <state relative-caret-position="60">
+              <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/ApiClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/ApiClient.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/remote/EReadingRemoteDataSource.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="42" column="55" lean-forward="true" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/remote/RssNewFeedRemoteDataSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_list_favorite.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_page_new_feed.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
       <list>
-        <option value="$PROJECT_DIR$/app/google-services.json" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/listnewfeed/pagelistnewfeed/PageListNewFeedAdapter.java" />
+        <option value="layoutResourceFile" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="44" />
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>llTr</find>
+      <find>edtUsername</find>
+      <find>edtResponseText</find>
+      <find>edtReponserText</find>
+      <find>PageListNewFeedAdapter</find>
+      <find>tv_news_title</find>
+      <find>setmUrlEndPoint</find>
+      <find>onBindData</find>
+      <find>listContentSource</find>
+      <find>url_source_feed</find>
+      <find>urlNewFeed</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/PageAccountFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/PageAccountViewModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/register/RegisterFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/register/RegisterViewModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/login/LoginViewModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/history/HistoryAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/history/HistoryFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/history/HistoryViewModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/favorite/FavoriteAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/favorite/FavoriteFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/account/favorite/FavoriteViewModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/ApiServer.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/AccountLoginRequest.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/AccountRegisterRequest.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/AddFavoriteRequest.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/DataFavoriteResponse.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/DataLoginRequest.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/DataStringReponse.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/DetectWordRequest.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/FavoriteDeletedResponse.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/ListVocabularyToTranslateAgainRequest.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/ListVocabularyFavoriteRequest.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/TranslateNewFeedAgainRequest.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/TranslateNewFeedRequest.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/remote/EReadingDataSource.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/remote/EReadingRemoteDataSource.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/remote/RssNewFeedRemoteDataSource.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/BBCRssItemResponse.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/BBCRssResponse.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/BBCRssThumbnail.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/DetailResponse.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/LevelUserResponse.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/ListHistoryResponse.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/ListLevelEnglishResponse.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/RssItemMediaGroup.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/RssItemResponse.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/RssResponse.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/Token.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/datasource/repository/EReadingRepository.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/datasource/repository/LocalRepository.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/datasource/repository/RssNewFeedRepository.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/utils/CustomCallAdapterFactory.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/utils/MessageApiException.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/App.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_manager.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_page_account.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_page_translate.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_page_new_feed.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/ApiClient.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="27" />
-    <option name="width" value="1299" />
-    <option name="height" value="654" />
+    <option name="width" value="960" />
+    <option name="height" value="1053" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -124,29 +452,34 @@
           <expand>
             <path>
               <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Desktop/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
             <path>
               <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Desktop/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Desktop/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Desktop/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Desktop/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
@@ -154,7 +487,7 @@
             </path>
             <path>
               <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Desktop/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
@@ -163,7 +496,7 @@
             </path>
             <path>
               <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Desktop/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
@@ -173,7 +506,7 @@
             </path>
             <path>
               <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Desktop/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
@@ -184,7 +517,7 @@
             </path>
             <path>
               <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Desktop/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
@@ -196,7 +529,20 @@
             </path>
             <path>
               <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Desktop/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="dtu" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="capstone2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ereading" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="datasource" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
@@ -209,7 +555,21 @@
             </path>
             <path>
               <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Desktop/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="dtu" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="capstone2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ereading" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="network" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="utils" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
@@ -222,7 +582,36 @@
             </path>
             <path>
               <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Desktop/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="dtu" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="capstone2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ereading" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ui" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="account" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="dtu" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="capstone2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ereading" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ui" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="account" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="login" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
@@ -236,30 +625,182 @@
             </path>
             <path>
               <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Desktop/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="res" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="res" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="animator" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="res" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="drawable" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="res" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="layout" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="res" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="menu" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="res" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mipmap-anydpi-v26" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="res" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mipmap-hdpi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="res" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mipmap-mdpi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="res" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mipmap-xhdpi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="res" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mipmap-xxhdpi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="res" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mipmap-xxxhdpi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="res" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="values" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="dtu" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="dtu" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="capstone2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ereading" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ui" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="newfeed" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="listnewfeed" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="gradle" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Documents/Graduate-Project/EReadingAndroid" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="gradle" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="wrapper" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="EReadingAndroid" type="b2602c69:ProjectViewProjectNode" />
               <item name="EReadingAndroid" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EReadingAndroid" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EReadingAndroid" type="b2602c69:ProjectViewProjectNode" />
@@ -271,6 +812,30 @@
               <item name="EReadingAndroid" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EReadingAndroid" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="androidTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EReadingAndroid" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="androidTest" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EReadingAndroid" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="androidTest" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ereading" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EReadingAndroid" type="b2602c69:ProjectViewProjectNode" />
@@ -287,18 +852,122 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="EReadingAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EReadingAndroid" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ereading" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EReadingAndroid" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ereading" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EReadingAndroid" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ereading" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
+              <item name="remote" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EReadingAndroid" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ereading" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EReadingAndroid" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EReadingAndroid" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="drawable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EReadingAndroid" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EReadingAndroid" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="values" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EReadingAndroid" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EReadingAndroid" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EReadingAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EReadingAndroid" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Nexus_4_API_23" />
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2019-09-26T12:46:11.199Z" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -387,89 +1056,396 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.32954547" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.499187" visible="true" weight="0.24546425" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Build Variants" order="4" sideWeight="0.500813" side_tool="true" weight="0.20437567" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Designer" order="6" />
-      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Resources Explorer" order="7" weight="0.32977587" />
       <window_info id="Capture Tool" order="8" />
-      <window_info anchor="bottom" id="Run" order="0" weight="0.32847896" />
-      <window_info anchor="bottom" id="Logcat" order="1" visible="true" weight="0.32847896" />
-      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.49626467" weight="0.24209379" />
+      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.4994664" weight="0.3264418" />
+      <window_info anchor="bottom" id="TODO" order="2" weight="0.3293348" />
       <window_info anchor="bottom" id="Debug" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5037353" side_tool="true" weight="0.20065431" />
       <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32847896" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.4967983" visible="true" weight="0.045801528" />
       <window_info anchor="bottom" id="Android Profiler" order="8" />
-      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Gradle" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="right" id="Assistant" order="0" weight="0.32977587" />
+      <window_info anchor="right" id="Device File Explorer" order="1" sideWeight="0.50054526" side_tool="true" weight="0.32977587" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Gradle" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Preview" order="6" sideWeight="0.49945474" weight="0.32977587" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.499187" visible="true" weight="0.24546425" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" sideWeight="0.500813" side_tool="true" weight="0.20437567" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" weight="0.32977587" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.49626467" weight="0.24209379" />
+      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.4994664" weight="0.3264418" />
+      <window_info anchor="bottom" id="TODO" order="2" weight="0.3293348" />
+      <window_info anchor="bottom" id="Debug" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5037353" side_tool="true" visible="true" weight="0.20065431" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.4967983" weight="0.045801528" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="right" id="Assistant" order="0" weight="0.32977587" />
+      <window_info anchor="right" id="Device File Explorer" order="1" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Gradle" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info active="true" anchor="right" id="Preview" order="6" visible="true" weight="0.32977587" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/google-services.json">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/BBCRssResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/BBCRssThumbnail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/DetailResponse.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/LevelUserResponse.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/ListHistoryResponse.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/ListLevelEnglishResponse.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/RssItemMediaGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/RssItemResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/RssResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/response/Token.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/datasource/repository/EReadingRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/datasource/repository/RssNewFeedRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/utils/ApiExceptionResponse.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/utils/BaseRxCallAdapterWrapper.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/utils/CustomCallAdapter.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/utils/CustomCallAdapterFactory.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/utils/MessageApiException.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/utils/RxCallAdapterWrapper.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/App.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/MainViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/MainPagerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/utils/SuccessDialog.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_display_new_feed.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-395" />
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_favorite_detail.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_error_detail.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_loading.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_success.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_history.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_list_new_feed.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_favorite.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_translate_result.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_list_news_feed.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="37" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_page_new_feed.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_page_translate.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_manager.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_page_account.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_your_text.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_fragment_history.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="119" column="46" selection-start-line="119" selection-start-column="46" selection-end-line="119" selection-end-column="46" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/datasource/repository/LocalRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/PageNewFeedFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/remote/EReadingDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-401">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/PageNewFeedAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/request/AccountLoginRequest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-461">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/listnewfeed/ListNewFeedPagerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-87">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/listnewfeed/ListNewFeedFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-615">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="60">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/ApiServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        <state relative-caret-position="60">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/remote/EReadingRemoteDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/remote/RssNewFeedRemoteDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_list_favorite.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_page_new_feed.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/network/ApiClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="42" column="55" lean-forward="true" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dtu/capstone2/ereading/ui/newfeed/listnewfeed/pagelistnewfeed/PageListNewFeedAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="87" column="69" selection-start-line="87" selection-start-column="69" selection-end-line="87" selection-end-column="69" />
+        <state relative-caret-position="240">
+          <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
         </state>
       </provider>
     </entry>

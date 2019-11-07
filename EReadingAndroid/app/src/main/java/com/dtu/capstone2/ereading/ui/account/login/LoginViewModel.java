@@ -8,9 +8,6 @@ import com.dtu.capstone2.ereading.network.request.DataLoginRequest;
 import io.reactivex.Single;
 import io.reactivex.functions.Consumer;
 
-/**
- * Create by Vo The Doan on 4/1/2019
- */
 class LoginViewModel {
     private EReadingRepository mEReadingRepository;
     private LocalRepository mLocalRepository;

@@ -10,9 +10,6 @@ import java.util.List;
 import io.reactivex.Single;
 import io.reactivex.functions.Consumer;
 
-/**
- * Create by Huynh Vu Ha Lan on 06/05/2019
- */
 class HistoryViewModel {
     private EReadingRepository eReadingRepository = new EReadingRepository();
     private List<HistoryNewFeed> mListHistory = new ArrayList<>();

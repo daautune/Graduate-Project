@@ -23,9 +23,6 @@ import com.dtu.capstone2.ereading.ui.utils.Constants;
 
 import org.jetbrains.annotations.Nullable;
 
-/**
- * Create by Nguyen Van Phuc on 4/7/19
- */
 public class DisplayNewFeedFragment extends BaseFragment implements SwipeRefreshLayout.OnRefreshListener {
     private WebView mWebViewNewFeed;
     private DisplayNewFeedViewModel mViewModel;

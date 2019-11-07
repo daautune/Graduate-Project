@@ -21,9 +21,6 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.functions.Consumer;
 import io.reactivex.schedulers.Schedulers;
 
-/**
- * Create by Vo The Doan on 04/30/2019
- */
 public class FavoriteFragment extends BaseFragment {
     private FavoriteViewModel viewModel;
     private FavoriteAdapter adapter;

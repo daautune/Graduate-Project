@@ -12,9 +12,6 @@ import io.reactivex.schedulers.Schedulers
 import retrofit2.HttpException
 import javax.net.ssl.HttpsURLConnection
 
-/**
- * Create by Nguyen Van Phuc on 4/9/19
- */
 internal fun <T> Observable<T>.observeOnUiThread(): Observable<T> =
         this.subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread())
 

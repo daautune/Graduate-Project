@@ -12,9 +12,6 @@ import io.reactivex.ObservableOnSubscribe
 import io.reactivex.Single
 import org.jsoup.Jsoup
 
-/**
- * Create by Nguyen Van Phuc on 4/9/19
- */
 internal class TranslateNewFeedViewModel(private val mReadingRepository: EReadingRepository, private val localRepository: LocalRepository) {
     companion object {
         internal const val NO_ITEM_CHANGE = -1

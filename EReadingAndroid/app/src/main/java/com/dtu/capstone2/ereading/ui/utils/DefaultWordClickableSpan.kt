@@ -6,9 +6,6 @@ import android.text.style.ClickableSpan
 import android.view.View
 import com.dtu.capstone2.ereading.ui.model.VocabularyLocation
 
-/**
- * Create by Nguyen Van Phuc on 2019-04-22
- */
 class DefaultWordClickableSpan : ClickableSpan() {
     private val TAG = this.javaClass.simpleName
 

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:animateLayoutChanges="true"
-    android:background="@color/colorBackgroundMainApp"
+    android:background="@drawable/background_img"
     android:clickable="true"
     android:focusable="true"
     android:paddingLeft="10dp">
@@ -19,49 +20,74 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/textSlogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:text="Bring Knowledge To You"
+        android:textColor="@color/colorText"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <android.support.design.widget.TextInputLayout
         android:id="@+id/layout_login_username"
         style="@style/LayoutInputEditTextAccounts"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="100dp"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/img_login_logo">
+        app:layout_constraintTop_toBottomOf="@id/img_login_logo"
+        app:hintEnabled="false">
 
-        <android.support.design.widget.TextInputEditText
+        <EditText
             android:id="@+id/tvLoginUsername"
             style="@style/InputEditTextAccounts"
-            android:background="@drawable/my_border_edit_text"
-            android:hint="Username"
-            android:inputType="text" />
+            android:background="@drawable/custom_layout_text_view"
+            android:layout_height="50dp"
+            android:textSize="16sp"
+            android:inputType="text"
+            android:hint="Tên đăng nhập"
+            android:drawableLeft="@drawable/dash_icons_admin_users"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/dash_icons_admin_users"/>
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
         android:id="@+id/layoutLoginPassword"
         style="@style/LayoutInputEditTextAccounts"
-        android:layout_marginTop="5dp"
-        app:errorEnabled="true"
+        app:hintEnabled="false"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/layout_login_username"
-        app:passwordToggleDrawable="@drawable/icons8_lock_25"
-        app:passwordToggleEnabled="true">
+        app:layout_constraintTop_toBottomOf="@id/layout_login_username">
 
-        <android.support.design.widget.TextInputEditText
+        <EditText
             android:id="@+id/tvLoginPassword"
             style="@style/InputEditTextAccounts"
-            android:background="@drawable/my_border_edit_text"
-            android:hint="Password"
-            android:inputType="textPassword" />
+            android:background="@drawable/custom_layout_text_view"
+            android:hint="Mật khẩu"
+            android:layout_height="50dp"
+            android:textSize="16sp"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/icon_key"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/icon_key" />
+
     </android.support.design.widget.TextInputLayout>
 
     <Button
         android:id="@+id/btnSignInAccount"
-        android:layout_width="wrap_content"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="60dp"
         android:layout_marginRight="10dp"
         android:background="@drawable/bg_button_main_app"
         android:padding="15dp"
-        android:text="LOG IN"
-        android:textColor="@color/colorMainApp"
+        android:text="Đăng nhập"
+        android:textColor="@color/colorText"
+        android:textSize="16sp"
+        app:layout_constraintHorizontal_bias="0.588"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/layoutLoginPassword" />
@@ -70,12 +96,25 @@
         android:id="@+id/btnLoginRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="10dp"
-        android:text="Chưa có tài khoản? Click để đăng kí ngay!"
+        android:layout_marginTop="25dp"
+        android:text="Tạo tài khoản?"
         android:textColor="@color/colorMainApp"
         android:textSize="16sp"
+        android:textStyle="italic|bold"
+        app:layout_constraintHorizontal_bias="0.912"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btnSignInAccount" />
+
+    <!--        <TextView-->
+<!--        android:id="@+id/btnForgotPassword"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Forgot your password?"-->
+<!--        android:textColor="@color/colorText"-->
+<!--        android:textSize="16sp"-->
+<!--        tools:layout_editor_absoluteX="212dp"-->
+<!--        tools:layout_editor_absoluteY="454dp" />-->
+
+
 </android.support.constraint.ConstraintLayout>

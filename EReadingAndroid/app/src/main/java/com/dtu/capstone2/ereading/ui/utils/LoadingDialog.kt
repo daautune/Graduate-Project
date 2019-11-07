@@ -13,9 +13,6 @@ import android.view.WindowManager
 import com.dtu.capstone2.ereading.R
 import kotlinx.android.synthetic.main.dialog_loading.*
 
-/**
- * Create by Nguyen Van Phuc on 4/3/19
- */
 class LoadingDialog : DialogFragment() {
     private var isShowing = false
 

@@ -6,7 +6,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="This fragment will display enter_text layout made by Van"
+        android:text="This fragment will display enter_text layout made by Trang"
         android:layout_centerInParent="true"/>
 
 </RelativeLayout>

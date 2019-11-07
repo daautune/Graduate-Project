@@ -6,9 +6,6 @@ import com.dtu.capstone2.ereading.ui.newfeed.listnewfeed.pagelistnewfeed.PageLis
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Create by Nguyen Van Phuc on 4/8/19
- */
 class ListNewFeedViewModel {
     private List<ItemListNewFeedPager> mListNewFeedBBCPopularPagers = new ArrayList<>();
     private List<ItemListNewFeedPager> mListNewFeedBBCGlobalAndUKPagers = new ArrayList<>();

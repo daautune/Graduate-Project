@@ -3,6 +3,7 @@ package com.dtu.capstone2.ereading.ui.newfeed.listnewfeed.pagelistnewfeed;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,9 +17,6 @@ import com.dtu.capstone2.ereading.network.response.BBCRssItemResponse;
 
 import java.util.List;
 
-/**
- * Create by Nguyen Van Phuc on 4/6/19
- */
 public class PageListNewFeedAdapter extends RecyclerView.Adapter<PageListNewFeedAdapter.ListNewFeedViewHolder> {
     private List<BBCRssItemResponse> mRssItemResponses;
     private Context mContext;
@@ -59,6 +57,7 @@ public class PageListNewFeedAdapter extends RecyclerView.Adapter<PageListNewFeed
         private ImageView imgNewsThumbnail;
         private TextView tvNewsTitle;
         private TextView tvNewsDescription;
+        private TextView tvNewsPushDate;
 
         //Setting các tuỳ chọn cho thư viện load ảnh Glide
         private RequestOptions options = new RequestOptions()
@@ -71,6 +70,7 @@ public class PageListNewFeedAdapter extends RecyclerView.Adapter<PageListNewFeed
             imgNewsThumbnail = itemView.findViewById(R.id.img_news_thumbnail);
             tvNewsTitle = itemView.findViewById(R.id.tv_news_title);
             tvNewsDescription = itemView.findViewById(R.id.tv_news_description);
+            tvNewsPushDate = itemView.findViewById(R.id.tv_news_push_date);
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -81,13 +81,11 @@ public class PageListNewFeedAdapter extends RecyclerView.Adapter<PageListNewFeed
         }
 
         void onBindData(BBCRssItemResponse rssItemResponse) {
-//            String urlImage = (rssItemResponse.getBbcRssThumbnail().getUrlImage() != null) ?
-//                    rssItemResponse.getBbcRssThumbnail().getUrlImage() : "";
-
-            //Load Anh tu Url sử dụng thư viện Glide
-            Glide.with(mContext).load("").apply(options).into(imgNewsThumbnail);
-            tvNewsTitle.setText(rssItemResponse.getTitle());
-            tvNewsDescription.setText(rssItemResponse.getDescription());
+            try {
+                tvNewsTitle.setText(rssItemResponse.getTitle());
+                tvNewsDescription.setText(rssItemResponse.getDescription());
+                tvNewsPushDate.setText(rssItemResponse.getPushDate());
+            } catch(Exception e) {}
 
         }
     }

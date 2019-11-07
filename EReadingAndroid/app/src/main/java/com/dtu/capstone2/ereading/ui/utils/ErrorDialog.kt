@@ -6,9 +6,6 @@ import android.support.v4.app.FragmentManager
 import android.widget.TextView
 import com.dtu.capstone2.ereading.R
 
-/**
- * Create by Nguyen Van Phuc on 4/3/19
- */
 class ErrorDialog : BaseDialog() {
     private var isShowing = false
 

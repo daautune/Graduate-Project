@@ -10,9 +10,6 @@ import com.dtu.capstone2.ereading.ui.model.LineContentNewFeed
 import com.dtu.capstone2.ereading.ui.utils.setSpannerEvent
 import kotlinx.android.synthetic.main.item_translate_result_content.view.*
 
-/**
- * Create by Nguyen Van Phuc on 2019-05-01
- */
 class TranslateNewFeedAdapter(private val data: List<LineContentNewFeed>) : RecyclerView.Adapter<TranslateNewFeedAdapter.TranslateNewFeedViewHolder>() {
 
     override fun onCreateViewHolder(container: ViewGroup, itemType: Int): TranslateNewFeedViewHolder {

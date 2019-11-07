@@ -3,13 +3,18 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-    <color name="colorBackgroundMainApp">#EEEEEE</color>
-    <color name="colorMainApp">#399BD6</color>
+    <color name="colorBackgroundMainApp">#56CCF2</color>
+    <color name="colorMainApp">#2F80ED</color>
     <color name="colorLightBlue">#98A6EC</color>
     <color name="colorWhite">#FCFDFD</color>
     <color name="colorGrey">#E3E9E9</color>
     <color name="colorTrongSuot">#00000000</color>
     <color name="colorBlack">#000000</color>
+    <color name="colorTextHint">#C4C4C4</color>
+    <color name="colorBorder">#2F80ED</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorText">#FFFFFF</color>
+    <color name="colorDescription">#b7b2ab</color>
 
     <!--Color swipe refresh layout-->
     <color name="colorPink">#FF4081</color>

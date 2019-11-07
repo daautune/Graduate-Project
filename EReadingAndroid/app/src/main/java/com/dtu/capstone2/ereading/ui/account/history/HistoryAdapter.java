@@ -12,9 +12,6 @@ import com.dtu.capstone2.ereading.network.response.HistoryNewFeed;
 
 import java.util.List;
 
-/**
- * Create by Huynh Vu Ha Lan on 06/05/2019
- */
 public class HistoryAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private final int VIEW_TYPE_ITEM = 0;
     private final int VIEW_TYPE_LOADING = 1;

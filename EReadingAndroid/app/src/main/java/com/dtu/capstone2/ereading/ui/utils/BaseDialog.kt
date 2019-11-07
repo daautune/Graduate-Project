@@ -8,9 +8,6 @@ import android.support.v4.app.DialogFragment
 import android.view.Window
 import android.view.WindowManager
 
-/**
- * Create by Nguyen Van Phuc on 4/3/19
- */
 abstract class BaseDialog : DialogFragment() {
     companion object {
         private const val dimValue = 0.3F

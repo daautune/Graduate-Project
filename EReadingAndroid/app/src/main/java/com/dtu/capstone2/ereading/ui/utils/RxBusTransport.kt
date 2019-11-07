@@ -4,9 +4,6 @@ import android.util.Log
 import io.reactivex.Observable
 import io.reactivex.subjects.PublishSubject
 
-/**
- * Create by Nguyen Van Phuc on 4/9/19
- */
 object RxBusTransport {
     private val publisher = PublishSubject.create<Transport>()
 

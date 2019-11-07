@@ -43,7 +43,7 @@ public class MainActivity extends BaseActivity {
     private void initData() {
         mListFragment = new ArrayList<>();
         mListFragment.add(new MainPage(new PageNewFeedFragment(), "Tin tức"));
-        mListFragment.add(new MainPage(new PageHomeFragment(), "Trang chủ"));
+        mListFragment.add(new MainPage(new PageHomeFragment(), "Dịch"));
         mListFragment.add(new MainPage(new PageAccountFragment(), "Tài khoản"));
     }
 }

@@ -3,9 +3,6 @@ package com.dtu.capstone2.ereading.network.response;
 import org.simpleframework.xml.Element;
 import org.simpleframework.xml.Root;
 
-/**
- * Create by Nguyen Van Phuc on 4/6/19
- */
 @Root(name = "item", strict = false)
 public class BBCRssItemResponse {
 

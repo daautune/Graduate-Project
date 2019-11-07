@@ -11,9 +11,6 @@ import java.util.List;
 import io.reactivex.Single;
 import io.reactivex.functions.Consumer;
 
-/**
- * Create by Vo The Doan on 04/30/2019
- */
 class FavoriteViewModel {
     private EReadingRepository eReadingRepository = new EReadingRepository();
     private List<Favorite> listFavorite = new ArrayList<>();

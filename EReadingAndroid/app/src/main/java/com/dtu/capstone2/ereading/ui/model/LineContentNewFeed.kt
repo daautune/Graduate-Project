@@ -1,8 +1,5 @@
 package com.dtu.capstone2.ereading.ui.model
 
-/**
- * Create by Nguyen Van Phuc on 4/9/19
- */
 data class LineContentNewFeed(val typeContent: TypeContent? = null,
                               val textContent: String = "",
                               val vocabulariesTranslated: List<WordSpannableHighLight>? = null,

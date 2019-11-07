@@ -9,9 +9,6 @@ import android.widget.Toast
 import com.dtu.capstone2.ereading.R
 import io.reactivex.disposables.CompositeDisposable
 
-/**
- * Create by Nguyen Van Phuc on 4/9/19
- */
 abstract class BaseActivity : AppCompatActivity() {
     companion object {
         const val TIME_DELAY_DISMISS_DIALOG_SUCCESS = 1300L

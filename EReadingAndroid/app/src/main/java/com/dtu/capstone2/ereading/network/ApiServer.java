@@ -27,9 +27,6 @@ import retrofit2.http.POST;
 import retrofit2.http.Path;
 import retrofit2.http.Query;
 
-/**
- * Create by Nguyen Van Phuc on 2/20/19
- */
 public interface ApiServer {
     /**
      * Login for server

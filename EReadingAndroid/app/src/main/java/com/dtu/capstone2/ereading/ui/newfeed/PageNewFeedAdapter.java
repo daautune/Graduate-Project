@@ -16,9 +16,6 @@ import com.dtu.capstone2.ereading.ui.model.ItemPageNewFeed;
 
 import java.util.List;
 
-/**
- * Create by Nguyen Van Phuc on 4/6/19
- */
 public class PageNewFeedAdapter extends RecyclerView.Adapter<PageNewFeedAdapter.PageNewFeedViewHolder> {
     private List<ItemPageNewFeed> mItemPageNewFeeds;
     private OnItemListener mOnItemListener;

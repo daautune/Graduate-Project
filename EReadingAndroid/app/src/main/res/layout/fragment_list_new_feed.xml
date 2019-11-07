@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:animateLayoutChanges="true"
-    android:background="@color/colorBackgroundMainApp"
+    android:background="@color/colorBackground"
     android:clickable="true"
     android:focusable="true">
 
@@ -43,7 +43,7 @@
         android:layout_height="5dp"
         android:layout_below="@id/layoutListNewFeedHeader"
         android:layout_marginTop="5dp"
-        android:background="@color/colorBackgroundMainApp"
+        android:background="@color/colorBackground"
         app:tabBackground="@drawable/tab_selector"
         app:tabGravity="center"
         app:tabIndicatorHeight="0dp"

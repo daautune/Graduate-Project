@@ -25,9 +25,6 @@ import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.converter.simplexml.SimpleXmlConverterFactory;
 
-/**
- * Create by Nguyen Van Phuc on 2/20/19
- */
 public class ApiClient {
     private static final long API_TIMEOUT = 15000L;// Time out = 15s
     private static ApiClient sApiClient;
@@ -40,7 +37,7 @@ public class ApiClient {
     }
 
     public ApiServer createServer() {
-        String mBaseUrl = "http://ereading.eastus.cloudapp.azure.com:8000/api/";
+        String mBaseUrl = "http://10.1.1.139:8000/api/";
 
         OkHttpClient.Builder httpClientBuilder = new OkHttpClient.Builder();
 

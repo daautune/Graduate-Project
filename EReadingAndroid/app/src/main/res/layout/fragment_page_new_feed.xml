@@ -12,7 +12,7 @@
         android:background="@color/colorMainApp"
         android:gravity="center"
         android:text="@string/page_new_feed_header_title"
-        android:textColor="@color/colorBackgroundMainApp"
+        android:textColor="@color/colorText"
         android:textSize="@dimen/action_bar_title_text_size"
         app:layout_constraintTop_toTopOf="parent" />
 

@@ -7,9 +7,6 @@ import com.dtu.capstone2.ereading.R;
 import com.dtu.capstone2.ereading.ui.account.login.LoginFragment;
 import com.dtu.capstone2.ereading.ui.utils.BaseActivity;
 
-/**
- * Create by Nguyen Van Phuc on 4/3/19
- */
 public class ManagerAccountContainerActivity extends BaseActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

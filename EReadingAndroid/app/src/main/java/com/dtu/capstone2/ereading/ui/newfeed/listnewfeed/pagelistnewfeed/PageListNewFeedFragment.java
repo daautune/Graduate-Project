@@ -23,9 +23,6 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
 
-/**
- * Create By Huynh Vu Ha Lan on 21/03/2019
- */
 public class PageListNewFeedFragment extends BaseFragment {
     private PageListNewFeedViewModel mViewModel;
     private PageListNewFeedAdapter mAdapter;

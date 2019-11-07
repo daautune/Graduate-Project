@@ -18,9 +18,6 @@ import com.dtu.capstone2.ereading.ui.utils.BaseFragment;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Create by Nguyen Van Phuc on 3/22/19
- */
 public class PageNewFeedFragment extends BaseFragment {
     public static final String KEY_POSITION_GROUP_NEW_FEED = "position_group_new_feed";
     private RecyclerView mRecyclerView;

@@ -19,9 +19,6 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.functions.Consumer;
 import io.reactivex.schedulers.Schedulers;
 
-/**
- * Create by Huynh Vu Ha Lan on 06/05/2019
- */
 public class HistoryFragment extends BaseFragment {
     private HistoryViewModel viewModel;
     private HistoryAdapter adapter;

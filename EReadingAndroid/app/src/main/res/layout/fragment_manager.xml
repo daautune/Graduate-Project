@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
     <LinearLayout
         android:id="@+id/llLogin"
         android:layout_width="match_parent"
@@ -25,22 +26,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginTop="50dp"
             android:ellipsize="end"
             android:maxLines="1"
             android:text="@string/page_account_login_info_default"
-            android:textColor="@color/colorMainApp"
+            android:textColor="@color/colorText"
             android:textSize="25sp"
             android:textStyle="bold|italic" />
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/llTrinhDoTiengAnh"
+        android:id="@+id/llEnglishLevel"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="10dp"
-        android:background="@drawable/custom_layout_textview"
+        android:background="@drawable/custom_layout_text_view"
         android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/llLogin">
@@ -60,7 +62,7 @@
             android:gravity="center|start"
             android:paddingStart="20dp"
             android:paddingLeft="20dp"
-            android:text="Trình độ tiếng anh"
+            android:text="Trình độ tiếng Anh"
             android:textSize="20sp" />
 
         <ImageView
@@ -79,10 +81,10 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
-        android:background="@drawable/custom_layout_textview"
+        android:background="@drawable/custom_layout_text_view"
         android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/llTrinhDoTiengAnh">
+        app:layout_constraintTop_toBottomOf="@+id/llEnglishLevel">
 
         <ImageView
             android:layout_width="40dp"
@@ -90,7 +92,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:src="@drawable/ic_favorite_black_24dp" />
+            android:src="@drawable/ic_favorite_blue_24dp" />
 
         <TextView
             android:layout_width="match_parent"
@@ -99,7 +101,7 @@
             android:gravity="center|start"
             android:paddingStart="20dp"
             android:paddingLeft="20dp"
-            android:text="Danh sách chọn"
+            android:text="Danh sách từ yêu thích"
             android:textSize="20sp" />
 
         <ImageView
@@ -118,7 +120,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
-        android:background="@drawable/custom_layout_textview"
+        android:background="@drawable/custom_layout_text_view"
         android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvFavorite">
@@ -157,7 +159,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
-        android:background="@drawable/custom_layout_textview"
+        android:background="@drawable/custom_layout_text_view"
         android:orientation="horizontal"
         android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"
@@ -197,7 +199,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
-        android:background="@drawable/custom_layout_textview"
+        android:background="@drawable/custom_layout_text_view"
         android:orientation="horizontal"
         android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"
@@ -237,7 +239,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
-        android:background="@drawable/custom_layout_textview"
+        android:background="@drawable/custom_layout_text_view"
         android:orientation="horizontal"
         android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"
@@ -277,7 +279,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
-        android:background="@drawable/custom_layout_textview"
+        android:background="@drawable/custom_layout_text_view"
         android:orientation="horizontal"
         android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"
@@ -290,7 +292,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:src="@drawable/iconlogout" />
+            android:src="@drawable/icon_logout" />
 
         <TextView
             android:layout_width="match_parent"

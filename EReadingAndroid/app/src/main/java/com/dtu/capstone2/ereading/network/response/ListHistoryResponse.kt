@@ -3,9 +3,6 @@ package com.dtu.capstone2.ereading.network.response
 import com.google.gson.annotations.SerializedName
 import java.util.*
 
-/**
- * Create by Huynh Vu Ha Lan on 06/05/2019
- */
 data class ListHistoryResponse(@SerializedName("result_count") val resultCount: Int,
                                @SerializedName("page") val page: Int,
                                @SerializedName("next_page_flg") val nextPageFlg: Boolean,

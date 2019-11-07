@@ -15,9 +15,6 @@ import com.dtu.capstone2.ereading.R;
 import com.dtu.capstone2.ereading.ui.newfeed.PageNewFeedFragment;
 import com.dtu.capstone2.ereading.ui.utils.BaseFragment;
 
-/**
- * Create by Nguyen Van Phuc on 4/8/19
- */
 public class ListNewFeedFragment extends BaseFragment {
     private ListNewFeedPagerAdapter mAdapter;
     private ListNewFeedViewModel mViewModel;

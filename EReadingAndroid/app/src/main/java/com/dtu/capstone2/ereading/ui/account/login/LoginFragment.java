@@ -42,6 +42,7 @@ public class LoginFragment extends BaseFragment implements View.OnClickListener,
     private EditText edtPassword;
     private Button btnLogin;
     private TextView btnLoginRegister;
+    private TextView textSlogan;
     private TextInputLayout layoutPassword;
     private TextInputLayout layoutUsername;
 
@@ -80,9 +81,9 @@ public class LoginFragment extends BaseFragment implements View.OnClickListener,
         edtUsername = view.findViewById(R.id.tvLoginUsername);
         btnLogin = view.findViewById(R.id.btnSignInAccount);
         btnLoginRegister = view.findViewById(R.id.btnLoginRegister);
+        textSlogan = view.findViewById(R.id.textSlogan);
         layoutPassword = view.findViewById(R.id.layoutLoginPassword);
         layoutUsername = view.findViewById(R.id.layout_login_username);
-
         return view;
     }
 

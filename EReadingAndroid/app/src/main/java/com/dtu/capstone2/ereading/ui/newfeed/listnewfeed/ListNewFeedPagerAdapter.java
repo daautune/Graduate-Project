@@ -9,9 +9,6 @@ import com.dtu.capstone2.ereading.ui.model.ItemListNewFeedPager;
 
 import java.util.List;
 
-/**
- * Create by Nguyen Van Phuc on 4/8/19
- */
 public class ListNewFeedPagerAdapter extends FragmentStatePagerAdapter {
     public static final String KEY_URL_END_POINT = "key_url_end_point";
     public static final String KEY_TYPE_NEW_FEED = "key_type_new_feed";

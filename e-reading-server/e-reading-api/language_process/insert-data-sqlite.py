@@ -198,6 +198,9 @@ def writeFileLog(error, isLogDateTime=False, isFirstLog=False):
 
 def updatePopularityOfVocabulary():
 
+    # dictDataCommon, sizeDict = initDictCommonWorkFromFile(
+    #     "./e-reading-api/language_process/common-words.txt")
+
     dictDataCommon, sizeDict = initDictCommonWorkFromFile(
         "./e-reading-api/language_process/common-words.txt")
 
@@ -237,7 +240,12 @@ def updatePopularityOfVocabulary():
                 if tempCount == 0:  # Các từ bị miss vì ko tìm thấy trong DB vì bất cứ lí do gì
                     writeFileLog(
                         error="Khong co trong tu dien:(Dạng Thì :: Dạng ng Mẫu ) {}::{} "
+<<<<<<< HEAD
                         .format(key, wordSub))
+=======
+                        .format(key, wordSub)
+                    )
+>>>>>>> 0e2ae7fe62e8b8d8cd9fa0346aa300c641cabec4
                     countMissing = countMissing + 1
 
         count = count + tempCount
@@ -249,11 +257,10 @@ def updatePopularityOfVocabulary():
                 progress, sizeDict, count),
             end='\r')
 
-    #Ghi lại kết quả
+    # Ghi lại kết quả
     writeFileLog(
         error="Done with Total: {}, Success: {}, Missing: {}".format(
-            sizeDict, count, countMissing),
-        isLogDateTime=True)
+            sizeDict, count, countMissing), isLogDateTime=True)
 
 
 def initDictCommonWorkFromFile(urlFile):

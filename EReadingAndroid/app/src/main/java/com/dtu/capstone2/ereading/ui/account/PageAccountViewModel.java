@@ -12,9 +12,6 @@ import io.reactivex.Single;
 import io.reactivex.functions.Consumer;
 import io.reactivex.functions.Function;
 
-/**
- * Create by Nguyen Van Phuc on 4/12/19
- */
 class PageAccountViewModel {
     private EReadingRepository mEReadingRepository;
     private LocalRepository mLocalRepository;

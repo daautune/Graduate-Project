@@ -20,9 +20,6 @@ import com.google.gson.Gson
 import kotlinx.android.synthetic.main.fragment_translate_result.*
 import javax.net.ssl.HttpsURLConnection
 
-/**
- * Create by Nguyen Van Phuc on 4/9/19
- */
 class TranslateNewFeedFragment : BaseFragment(), View.OnClickListener, DialogInterface.OnMultiChoiceClickListener, DialogInterface.OnClickListener {
     companion object {
         const val TITLE_DIALOG_FAVORITE = "favorite"

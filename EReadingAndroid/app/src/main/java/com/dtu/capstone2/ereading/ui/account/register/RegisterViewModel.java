@@ -5,9 +5,6 @@ import com.dtu.capstone2.ereading.network.request.AccountRegisterRequest;
 
 import io.reactivex.Single;
 
-/**
- * Create by Nguyen Van Phuc on 4/2/19
- */
 public class RegisterViewModel {
     private EReadingRepository mEReadingRepository;
 

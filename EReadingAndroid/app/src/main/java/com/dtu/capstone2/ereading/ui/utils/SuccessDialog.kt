@@ -4,9 +4,6 @@ import android.app.Dialog
 import android.support.v4.app.FragmentManager
 import com.dtu.capstone2.ereading.R
 
-/**
- * Create by Nguyen Van Phuc on 4/3/19
- */
 class SuccessDialog : BaseDialog() {
     private var isShowing = false
 

@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
@@ -9,26 +9,23 @@
     </style>
 
     <!--Style for form account manage-->
-    <style name="InputEditTextAccounts" parent="Base.Widget.MaterialComponents.TextInputEditText">
+    <style name="InputEditTextAccounts" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
         <item name="android:maxLength">75</item>
-        <item name="android:maxLines">1</item>
     </style>
 
     <!--Style for form account manage-->
-    <style name="LayoutInputEditTextAccounts" parent="Widget.Design.TextInputLayout">
+    <style name="LayoutInputEditTextAccounts" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="android:layout_marginTop">10dp</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="boxBackgroundMode">outline</item>
-        <item name="android:textColorHint">@color/colorMainApp</item>
-        <item name="boxStrokeColor">@color/colorMainApp</item>
-        <item name="boxCornerRadiusBottomStart">10dp</item>
-        <item name="boxCornerRadiusTopStart">10dp</item>
-        <item name="boxCornerRadiusBottomEnd">10dp</item>
-        <item name="boxCornerRadiusTopEnd">10dp</item>
+        <item name="android:background">@null</item>
+        <item name="boxBackgroundMode">@color/colorBackground</item>
+        <item name="android:textColorHint">@color/colorTextHint</item>
+        <item name="boxStrokeColor">@color/colorBorder</item>
         <item name="errorEnabled">true</item>
     </style>
 

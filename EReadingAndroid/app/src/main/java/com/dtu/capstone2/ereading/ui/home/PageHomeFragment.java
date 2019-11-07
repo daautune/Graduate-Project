@@ -24,9 +24,6 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.functions.Consumer;
 import io.reactivex.schedulers.Schedulers;
 
-/**
- * Create by Nguyen Van Phuc on 3/22/19
- */
 public class PageHomeFragment extends BaseFragment {
     HomeFragmentViewModal mViewModel;
     private List<Vocabulary> listWord;
@@ -47,7 +44,7 @@ public class PageHomeFragment extends BaseFragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         super.onCreateView(inflater, container, savedInstanceState);
-        View view = LayoutInflater.from(container.getContext()).inflate(R.layout.fragment_page_home, container, false);
+        View view = LayoutInflater.from(container.getContext()).inflate(R.layout.fragment_page_translate, container, false);
         edtInputText = view.findViewById(R.id.edtInputText);
         edtReponserText = view.findViewById(R.id.edtResponseText);
         btnTranslate = view.findViewById(R.id.btnTranslate);

@@ -3,22 +3,22 @@
     <string name="activity_animation_duration">250</string>
 
     <!--Api Error-->
-    <string name="api_dialog_error_tv_title">Lỗi truy cập dữ liệu từ Server.\nVui long kiểm tra kết nối mạng và thử lại.</string>
+    <string name="api_dialog_error_tv_title">Lỗi truy cập dữ liệu từ server. Vui lòng kiểm tra lại kết nối của bạn!</string>
     <string name="api_dialog_error_tv_ok">OK</string>
 
     <!--Pager new Feed-->
     <string name="page_new_feed_header_title">Tin tức</string>
     <string name="list_new_feed_header_title">Cnn News</string>
-    <string name="translate_new_feed_error">Lỗi không thể lấy thông tin bài báo. Kiểm tra kết nối mạng!</string>
-    <string name="translate_new_feed_toast_select_word">Từ %s đã được chọn từ trước.</string>
+    <string name="translate_new_feed_error">Lỗi không truy xuất được thông tin bài báo. Vui lòng kiểm tra lại kết nối của bạn!</string>
+    <string name="translate_new_feed_toast_select_word">Từ %s đã được chon từ trước</string>
 
 
     <!--Pager Home-->
-    <string name="page_home_header_title">Trang chủ</string>
+    <string name="page_home_header_title">Dịch</string>
 
     <!--Pager Account-->
     <string name="page_account_header_title">Tài khoản</string>
-    <string name="page_account_login_info_default">Đăng nhập</string>
-    <string name="toast_requirement_login">Trước tiên bạn hãy đăng nhập.</string>
+    <string name="page_account_login_info_default">Click tại đây để đăng nhập</string>
+    <string name="toast_requirement_login">Bạn vui lòng đăng nhập trước!</string>
 
 </resources>

@@ -6,9 +6,6 @@ import com.dtu.capstone2.ereading.network.response.RssResponse;
 
 import io.reactivex.Single;
 
-/**
- * Create by Nguyen Van Phuc on 4/6/19
- */
 public class RssNewFeedRepository {
     private RssNewFeedRemoteDataSource newFeedRemoteDataSource = new RssNewFeedRemoteDataSource();
 

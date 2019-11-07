@@ -6,9 +6,6 @@ import com.dtu.capstone2.ereading.network.request.DataStringReponse;
 
 import io.reactivex.Single;
 
-/**
- * Create by Vo The Doan on 4/5/2019
- */
 class HomeFragmentViewModal {
     private EReadingRepository mReadingRepository;
     private LocalRepository mLocalRepository;

@@ -26,9 +26,6 @@ import java.util.List;
 import io.reactivex.Single;
 import io.reactivex.functions.Function;
 
-/**
- * Create by Nguyen Van Phuc on 3/11/19
- */
 public class EReadingRemoteDataSource {
     private ApiServer mApiServer = ApiClient.getInstants().createServer();
 

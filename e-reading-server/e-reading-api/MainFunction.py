@@ -25,7 +25,7 @@ def is_should_translator(vocabulary_request, level_of_user_request, object_user_
     vocabulary_of_db = try_to_find_word_on_db(vocabulary_request)
 
     if vocabulary_of_db is not None:
-        if vocabulary_of_db.popularity <= level_of_user_request:
+        if vocabulary_of_db.popularity >= level_of_user_request:
             return True, vocabulary_of_db  # Case tồn tài từ trong DB và là từ phổ biến
 
         if object_user_request is not None:
@@ -38,13 +38,30 @@ def is_should_translator(vocabulary_request, level_of_user_request, object_user_
 
 
 # Xếp hạng từ trên xuống tương ững với basic đến pro
-LEVEL_USER_1 = 0
-LEVEL_USER_2 = 16000
-LEVEL_USER_3 = 32000
-LEVEL_USER_4 = 48000
-LEVEL_USER_5 = 64000
-LEVEL_USER_6 = 80000
-LEVEL_USER_DEFAULT = LEVEL_USER_1
+# LEVEL_USER_1 = 630072115
+# LEVEL_USER_2 = 80893690
+# LEVEL_USER_3 = 26708670
+# LEVEL_USER_4 = 11315623
+# LEVEL_USER_5 = 5396579
+# LEVEL_USER_6 = 2917632
+
+LEVEL_USER = [
+    0,
+    16000,
+    32000,
+    48000,
+    64000,
+    80000
+]
+
+# LEVEL_USER_1 = 0
+# LEVEL_USER_2 = 16000
+# LEVEL_USER_3 = 32000
+# LEVEL_USER_4 = 48000
+# LEVEL_USER_5 = 64000
+# LEVEL_USER_6 = 80000
+
+LEVEL_USER_DEFAULT = LEVEL_USER[0]
 ID_USER_DEFAULT = 0
 
 

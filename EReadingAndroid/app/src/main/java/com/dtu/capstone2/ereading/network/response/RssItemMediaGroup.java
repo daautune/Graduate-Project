@@ -3,9 +3,6 @@ package com.dtu.capstone2.ereading.network.response;
 import org.simpleframework.xml.Attribute;
 import org.simpleframework.xml.Root;
 
-/**
- * Create by Nguyen Van Phuc on 4/7/19
- */
 @Root(name = "content")
 public class RssItemMediaGroup {
     @Attribute(name = "medium", required = false)
