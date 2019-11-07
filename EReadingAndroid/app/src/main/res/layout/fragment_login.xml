@@ -50,9 +50,9 @@
             android:textSize="16sp"
             android:inputType="text"
             android:hint="Tên đăng nhập"
-            android:drawableLeft="@drawable/dash_icons_admin_users"
+            android:drawableLeft="@drawable/icons_user_24"
             android:drawablePadding="10dp"
-            android:drawableStart="@drawable/dash_icons_admin_users"/>
+            android:drawableStart="@drawable/icons_user_24"/>
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -70,9 +70,9 @@
             android:layout_height="50dp"
             android:textSize="16sp"
             android:inputType="textPassword"
-            android:drawableLeft="@drawable/icon_key"
+            android:drawableLeft="@drawable/icons_key_24"
             android:drawablePadding="10dp"
-            android:drawableStart="@drawable/icon_key" />
+            android:drawableStart="@drawable/icons_key_24" />
 
     </android.support.design.widget.TextInputLayout>
 

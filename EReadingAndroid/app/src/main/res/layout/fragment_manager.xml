@@ -53,7 +53,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:src="@drawable/icon_account" />
+            android:src="@drawable/icons_profile_48" />
 
         <TextView
             android:layout_width="match_parent"
@@ -92,7 +92,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:src="@drawable/ic_favorite_blue_24dp" />
+            android:src="@drawable/icons_heart_48" />
 
         <TextView
             android:layout_width="match_parent"
@@ -131,7 +131,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:src="@drawable/icon_history" />
+            android:src="@drawable/icons_historical" />
 
         <TextView
             android:layout_width="match_parent"
@@ -292,7 +292,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:src="@drawable/icon_logout" />
+            android:src="@drawable/icons_exit_48" />
 
         <TextView
             android:layout_width="match_parent"

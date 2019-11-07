@@ -34,9 +34,9 @@
             android:hint="Tên đăng nhập"
             android:textSize="16sp"
             android:inputType="text"
-            android:drawableLeft="@drawable/dash_icons_admin_users"
+            android:drawableLeft="@drawable/icons_user_24"
             android:drawablePadding="10dp"
-            android:drawableStart="@drawable/dash_icons_admin_users"/>
+            android:drawableStart="@drawable/icons_user_24"/>
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -54,9 +54,9 @@
             android:layout_height="wrap_content"
             android:hint="Gmail"
             android:textSize="16sp"
-            android:drawableLeft="@drawable/dash_icons_admin_users"
+            android:drawableLeft="@drawable/icons_gmail_24"
             android:drawablePadding="10dp"
-            android:drawableStart="@drawable/dash_icons_admin_users"
+            android:drawableStart="@drawable/icons_gmail_24"
             android:inputType="textEmailAddress" />
     </android.support.design.widget.TextInputLayout>
 
@@ -73,9 +73,9 @@
             android:background="@drawable/custom_layout_text_view"
             android:hint="Mật khẩu"
             android:textSize="16sp"
-            android:drawableLeft="@drawable/icon_key"
+            android:drawableLeft="@drawable/icons_user_24"
             android:drawablePadding="10dp"
-            android:drawableStart="@drawable/icon_key"
+            android:drawableStart="@drawable/icons_key_24"
             android:inputType="textPassword" />
     </android.support.design.widget.TextInputLayout>
 
@@ -93,9 +93,9 @@
             android:hint="Xác nhận mật khẩu"
             android:inputType="textPassword"
             android:textSize="16sp"
-            android:drawableLeft="@drawable/icon_key"
+            android:drawableLeft="@drawable/icons_key_24"
             android:drawablePadding="10dp"
-            android:drawableStart="@drawable/icon_key"/>
+            android:drawableStart="@drawable/icons_key_24"/>
     </android.support.design.widget.TextInputLayout>
 
     <Button

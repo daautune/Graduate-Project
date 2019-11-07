@@ -4,7 +4,7 @@ import datetime
 
 def initListVovabularyFromFile(urlFile):
     """
-        Load  điển anh việt từ file 
+        Load từ điển anh việt từ file 
     """
 
     file = open(urlFile, "r+")
