@@ -29,7 +29,7 @@ python-dateutil==2.8.0
 pytz==2018.9
 pytzdata==2019.1
 regex==2019.4.14
-rsa==4.0
+rsa==4.1
 singledispatch==3.4.0.3
 six==1.12.0
 smmap2==2.0.5
